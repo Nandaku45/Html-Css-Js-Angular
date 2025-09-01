@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independence </title>
+    <style>
+        .input{
+            font-size: large;
+            color: blue;
+        }
+        .in{
+            font-size: large;
+            color: #ff4d00;
+        }
+    </style>
+</head>
+<body  style="color: floralwhite; background-color: rgb(230, 224, 210);" >
+    <h1 style="text-align: center; color: blue;">Independence day celebrations</h1>
+    <h2 style="color:darkmagenta;">Our school is going to celebrate Independence Day with great energy. As part of the celebration, we will be conducting various events such as outdoor games, indoor games, drama, speeches, singing, dance and General Knowledge Quiz competitions. You are welcome to participate in any or all of these events. Please fill out the form with the competitions you are interested in.  </h2><br>
+    <br>
+    <main>
+   <details style="color: #ff4d00;"><summary>Note:</summary>Do not bring the books </details> </p>
+   <hr>
+     <form  style="margin-left: 5%;" action="./Thanks.html" method="get">
+        <div class="input">
+            <label for="na">Full Name*</label>
+            <select>
+                <option>Mr.</option>
+                <option>Ms.</option>
+            </select>
+            <input type="text" value="" id="na" placeholder="Enter full name" minlength="9" required>
+        </div><br>
+        <div class="input">
+            <label for="class">Class*</label>
+            <select required>
+                <option>6th</option>
+                <option>7th</option>
+                                <option>8th</option>
+                <option>9th</option>
+                <option>10th</option>
+
+            </select>
+        </div><br>
+        <div class="input">
+            <label for="class">Section*</label>
+            <select required>
+            <option>First</option>
+            <option>Second</option>
+            <option>Third</option>
+            
+        </select>
+    </div><br>
+
+    <div class="input" >
+        <label for="og">Outdoor Games*</label><br>
+           <pre class="in" ><h3>     <input  id="ckt" type="checkbox" value="cricket"><label for="ckt">Cricket</label>  <input  id="kbd" type="checkbox" value="kabaddi"><label for="kbd">Kabaddi</label>  <input  id="vb" type="checkbox" value="volleyball"><label for="vb">Volleyball</label>  <input  id="bb" type="checkbox" value="basketball"><label for="bb">Basket Ball</label>  <input  id="kk" type="checkbox" value="ko-ko"><label for="kk">Ko-Ko</label></h3></pre>   
+    </div>
+    <div class="input">
+        <label for="ig">Indoor Games*</label><br>
+           <pre class="in"><h3>     <input  id="cs" type="checkbox" value="chess"><label for="cs">Chess</label>  <input  id="carrom" type="checkbox" value="carrom"><label for="carrom">Carrom</label>  <input  id="tt" type="checkbox" value="tabletennis"><label for="tt">Tabel Tennis</label>  </h3></pre>   
+    </div>
+    <div class="input">
+        <label for="s">Sports*</label><br>
+           <pre class="in"><h3>     <input  id="Rg" type="checkbox" value="running"><label for="rg">Running</label>  <input  id="jt" type="checkbox" value="javelin throw"><label for="jt">Javelin Throw</label>  <input  id="sp" type="checkbox" value="shortput"><label for="sp">Short put</label>   <input  id="lj" type="checkbox" value="longjump"><label for="lj">Long Jump</label>  <input  id="hj" type="checkbox" value="highjump"><label for="hj">Hight Jump</label></h3></pre>   
+    </div>
+
+    <div class="input">
+        <label for="sg" style="padding-right: 3%;">Singing(optional):</label>
+       <select id="sg">
+                <option value="solo">Solo</option> 
+            <option value="two">Two</option> 
+        </select>
+    </div><br>
+    <div class="input">
+        <label for="speech" style="padding-right: 3%;">Speech*:</label>
+       <select id="speech">
+                <option value="yes">Yes</option> 
+            <option value="no">No</option> 
+        </select>
+    </div><br>
+    <div class="input">
+        <label for="drama" style="padding-right: 3%;">Drama*:</label>
+       <select id="drama" >
+                <option value="solo">Solo</option> 
+            <option value="two">Two</option> 
+                            <option value="group">Group</option>
+        </select>
+    </div><br>
+<div class="input">
+        <label for="quiz" style="padding-right: 3%;">Quiz*:</label>
+       <select id="quiz" >
+        <p class="in">
+                <option value="solo">Solo</option> 
+            <option value="two">Two</option> 
+                            <option value="group">Group</option></p>
+        </select>
+    </div class="input"><br>
+    <button type="submit" value="submit" style="padding-right: 1%; margin-right: 3%;">Submit</button>
+    <button type="clear" value="clear"  style="padding-right: 1%; margin-right: 3%;">Clear</button>
+
+    
+</form>
+</main>
+    </body>
+</html>

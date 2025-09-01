@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .name{
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Student Registration  Form </h1>
+    <form action="./Thanks.html" method="post" style="text-align: left; padding-left: 5%; font-size: larger; height: 25%; width: 25%;">
+        <label for="name" class="name">Name:</label>
+        <input id="name" placeholder="Enter Full Name" type="text"><br><br>
+         <label for="email">Email:</label>
+        <input id="email" placeholder="Enter Email" type="email"><br><br>
+         <label for="Mobile Number">Mobile Number:</label>
+        <input id="Mobile Number" placeholder="Enter Mobile Number" type="number"><br><br>
+         <label for="pwd">Password:</label>
+        <input id="pwd" placeholder="Enter Password" type="password"><br><br>
+         <label for="confirm_pwd">Confirm Password:</label>
+        <input id="confirm_pwd" placeholder="Enter Confirm Password" type="password"><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input id="dob" placeholder="Enter Password" type="date"><br><br>
+        <label for="file">Resume:</label>
+        <input id="file" placeholder="Submit your Resume" type="file"><br><br>
+        <label for="Age">Age:</label>
+        <input id="Age" placeholder="Enter your Age" type="number"><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" value="Male" name="Gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="Female" name="Gender">
+        <label for="female">Female</label>
+        <input type="radio" id="gender" value="Other" name="Gender">
+        <label for="gender">Other</label><br><br>
+
+        <label  >Skills:</label><br>
+        <pre>         <input type="checkbox" name="skills" value="Html" id="html">  <label for="html">Html</label>    <input type="checkbox" name="skills" value="CSS" id="css">  <label for="css">CSS</label>   <input type="checkbox" name="skills" value="JS" id="js">  <label for="js">Java Script</label>   <input type="checkbox" name="skills" value="C#" id="c#">  <label for="c#">CSHARP</label>   <input type="checkbox" name="skills" value="Java" id="java">  <label for="java">Java</label> <input type="checkbox" name="skills" value="Sql Server" id="sql server">  <label for="sql server">MY Sql Server</label>   <input type="checkbox" name="skills" value="Sql" id="sql">  <label for="sql">MY SQL</label></pre><br>
+
+        <label>Education:</label>
+        <select>
+            
+                <option>10TH</option>
+                                <option>12TH</option>
+                                                <option>Degree</option>
+                                                                <option>Btech</option>
+                                                                                <option>Mba</option>
+                                                                                                <option>MTech</option>
+
+
+
+
+
+        </select><br><br>
+
+        <label>Branch:</label>
+        <select>
+            <optgroup label="Engineering">
+                <option>Civil</option>
+                                <option>Electronics and Electrical</option>
+                                                <option>CSC</option>
+                                                                <option>Mechanical</option>
+                                                                                <option>Petrolium</option>
+
+
+
+</optgroup>
+  <optgroup label="Degree">
+                <option>Bcom</option>
+                                <option>Bsc</option>
+                                                <option>BA</option>
+</optgroup>
+        </select><br><br>
+
+
+
+       
+
+
+        <label for="url">Linkedin Url:</label>
+        <input id="url"   placeholder="Submit your linkedin url" type="url"><br><br>
+         
+         
+         <label for="url">Github Url:</label>
+        <input id="url" placeholder="Submit your Github url" type="url"><br><br>
+
+        <label for="comments">Comments:</label>
+        <input id="comments" value="comments" placeholder="Any comments" type="text">
+         
+
+         
+         
+        <a href="./Thanks.html"><button type="submit" value="submit" >Submit</button></a>
+        
+    </form>
+</body>
+</html>
