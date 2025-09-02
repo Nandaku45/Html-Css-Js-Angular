@@ -1,0 +1,43 @@
+table{
+    background-color: wheat;
+    color: rgb(231, 29, 29);
+    height: 80vh;
+    width: 200vh;
+}
+th{
+    color:brown;
+    background-color: beige;
+padding-left: 2vh;   
+padding-right: 2vh;  
+padding-bottom: 2vh;
+padding-top: 2vh;
+}
+
+td{
+    
+    padding-left: 2vh;
+}
+img{
+padding-left: 5vh;  
+  height: 10vh;
+    width: 10vw;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    color:darkkhaki;
+}
+.part2{
+color: brown;
+font-size: large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:black;
+}
+footer{
+    color: red;
+}
