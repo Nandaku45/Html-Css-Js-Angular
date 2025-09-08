@@ -1,0 +1,93 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to left,rgb(128, 124, 124),rgb(144, 157, 144)),rgb(222, 199, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent{
+    display: grid;
+    height: 80vh;
+    width: 80vw;
+grid-template-columns: repeat(8,1fr);
+grid-template-rows: repeat(8,1fr);
+}
+.child{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+.child:nth-child(even){
+    background-color: white;
+}
+.child:nth-child(odd){
+    background-color: black;
+    
+    
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+background-image: url(./closeup-shot-glass-chess-set-600w-506398417.webp);    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#parent {
+    display: grid;
+    height: 90vh;
+    width: 50vw;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+}
+
+/* Actual chessboard pattern */
+.child:nth-child(16n+1),
+.child:nth-child(16n+3),
+.child:nth-child(16n+5),
+.child:nth-child(16n+7),
+.child:nth-child(16n+10),
+.child:nth-child(16n+12),
+.child:nth-child(16n+14),
+.child:nth-child(16n+16) {
+    background: black;
+}
+
+.child:nth-child(16n+2),
+.child:nth-child(16n+4),
+.child:nth-child(16n+6),
+.child:nth-child(16n+8),
+.child:nth-child(16n+9),
+.child:nth-child(16n+11),
+.child:nth-child(16n+13),
+.child:nth-child(16n+15) {
+    background: white;
+}
+
+

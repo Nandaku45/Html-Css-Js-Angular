@@ -5,6 +5,7 @@
     text-align: justify;
 }
 div{
+    box-sizing: border-box;
     height: 170vh;
     width: 60vw;
     background: linear-gradient(to right, rgb(193, 230, 193),rgb(211, 211, 228),rgb(235, 183, 183));
@@ -15,10 +16,28 @@ div{
 }
 body{
     background: url(./generated-image1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-image: auto;
 }
 .background{
     background: linear-gradient(to right, rgb(193, 230, 193),rgb(211, 211, 228),rgb(235, 183, 183));
 text-align: center;
-background: url(./generated-image.png);
+background: url(./College-student-.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+/* background-size: cover; */
 }
+.h2{
+    color:blue;
+    background-color: azure;
+    border-radius: 20%;
+    height: 15vh;
+    font-size: 2em;
+
+}
+#mydiv{
+    background-color: beige;
+}
+
 

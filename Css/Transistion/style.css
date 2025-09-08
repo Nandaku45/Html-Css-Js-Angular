@@ -1,0 +1,11 @@
+img{
+    height: 30%;
+    width: 40%;
+    margin: 10%;
+    transition: all 3s ease;
+}
+img:hover{
+    /* transform: scale(1.5); */
+    filter:hue-rotate(120deg);
+    transform:rotate(12deg)
+}
